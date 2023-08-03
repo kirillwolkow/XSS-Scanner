@@ -135,6 +135,7 @@ def __init__(self):
     - [ ] Create Docker image and publish to Docker Hub
     - [ ] Add forms with various difficulty levels
 - [ ] Add predefined kinds of attacks (DOM, Reflected, Stored)
+- [ ] Add a Django app with frontend UI which replaces command line tool
 
 See the [open issues](https://github.com/kirillwolkow/XSS-Scanner/issues) for a full list of proposed features (and known issues).
 

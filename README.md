@@ -62,13 +62,13 @@ There are already some XSS Scanners out there which do a pretty good job.
 
 This project is not only for my learning process to understand better how XSS attacks work and how I can make my web applications more secure against it.
 
-This is also an open source project for application built with [Django](https://www.djangoproject.com/).
+This is also an open source project for applications built with [Django](https://www.djangoproject.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-* [![BeautifulSoup4][BeautifulSoup4]][BeautifulSoup4-url]
+* [BeautifulSoup4][BeautifulSoup4-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+For this project you'll need Docker and Python installed on your system.
 * Docker -> Refer to [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 * Python -> Refer to [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
@@ -118,10 +118,10 @@ You will see an output if an attack was successful or not.
 You can update to login url, the url to scan and also the JavaScript which will be submitted.
 
 ```python
-    def __init__(self):
-        self.login_url = "http://localhost/login.php"
-        self.url_to_scan = "http://localhost/vulnerabilities/xss_r/"
-        self.js_script = "<script>alert('XSS')</script>"
+def __init__(self):
+    self.login_url = "http://localhost/login.php"
+    self.url_to_scan = "http://localhost/vulnerabilities/xss_r/"
+    self.js_script = "<script>alert('XSS')</script>"
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

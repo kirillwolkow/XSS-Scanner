@@ -129,12 +129,12 @@ def __init__(self):
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] A Django application which replaces DVWA (similar to Juice Shop) in order to target Django specific vulnerabilities
-    - [ ] Create Docker image and publish to Docker Hub
-    - [ ] Add forms with various difficulty levels
 - [ ] Scan for multiple forms on an URL
 - [ ] Add suggestions to improve security
 - [ ] Add predefined kinds of attacks (DOM, Reflected, Stored)
+- [ ] A Django application which replaces DVWA (similar to Juice Shop) in order to target Django specific vulnerabilities
+    - [ ] Create Docker image and publish to Docker Hub
+    - [ ] Add forms with various difficulty levels
 - [ ] Add a Django app with frontend UI which replaces command line tool
 
 See the [open issues](https://github.com/kirillwolkow/XSS-Scanner/issues) for a full list of proposed features (and known issues).
